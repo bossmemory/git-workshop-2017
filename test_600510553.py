@@ -4,7 +4,7 @@ def main():
     x = a+b
     for i in range (x):
         if i==x:
-            i=x-i
+            i=x//i
             print("*._.*")
             break
         else:print(i)
